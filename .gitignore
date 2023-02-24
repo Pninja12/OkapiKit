@@ -71,3 +71,8 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Assets/Tank Game/Game/animations/Explosion_animation2.anim.meta
+Assets/Tank Game/Game/animations/explosion_0.controller
+Assets/Tank Game/Game/animations/explosion_0.controller.meta
+Assets/Tank Game/Game/animations/Explosion_animation2.anim
+ProjectSettings/ShaderGraphSettings.asset
