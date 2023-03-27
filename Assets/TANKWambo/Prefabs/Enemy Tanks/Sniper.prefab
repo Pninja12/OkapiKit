@@ -460,7 +460,7 @@ MonoBehaviour:
     second, up to a distance of 15 units.
 
     This object''s up''s axis will rotate
-    towards the direction of movement, at a maximum speed of 25 degrees/sec.
+    towards the direction of movement, at a maximum speed of 50 degrees/sec.
 
 '
   description: 
@@ -472,7 +472,7 @@ MonoBehaviour:
   relativeMovement: 0
   rotateTowardsDirection: 1
   alignAxis: 0
-  maxRotationSpeed: 25
+  maxRotationSpeed: 50
   cameraObject: {fileID: 0}
   cameraTag: {fileID: 0}
 --- !u!1 &8021384850223462270
