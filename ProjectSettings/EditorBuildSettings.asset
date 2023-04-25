@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/TANKWambo/TANKWambo_test.unity
+  - enabled: 1
+    path: Assets/TANKWambo/Prefabs/Enemy Tanks/Builds/TANKWambo_Level1.unity
     guid: 9a97f4c478efd404d968b50c4c45b52e
+  - enabled: 1
+    path: Assets/TANKWambo/Prefabs/Enemy Tanks/Builds/TANKWambo_Level3.unity
+    guid: e76c331087921914e9f2d2d830b1c163
+  - enabled: 1
+    path: Assets/TANKWambo/Prefabs/Enemy Tanks/Builds/TANKWambo_Level2.unity
+    guid: d8a1ce2b9b74fe443811c88e3714d0e3
   m_configObjects: {}

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OkapiKitEditor", "OkapiKitEditor.csproj", "{AA47AE54-9D05-B40A-5899-13AD8A36271B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OkapiKit", "OkapiKit.csproj", "{000D5FC3-8536-1F71-E49E-089112B868AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{4F735599-0AFD-4B70-5DC7-F6598AECDB36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA47AE54-9D05-B40A-5899-13AD8A36271B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA47AE54-9D05-B40A-5899-13AD8A36271B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA47AE54-9D05-B40A-5899-13AD8A36271B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA47AE54-9D05-B40A-5899-13AD8A36271B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{000D5FC3-8536-1F71-E49E-089112B868AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{000D5FC3-8536-1F71-E49E-089112B868AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{000D5FC3-8536-1F71-E49E-089112B868AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{000D5FC3-8536-1F71-E49E-089112B868AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F735599-0AFD-4B70-5DC7-F6598AECDB36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F735599-0AFD-4B70-5DC7-F6598AECDB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F735599-0AFD-4B70-5DC7-F6598AECDB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F735599-0AFD-4B70-5DC7-F6598AECDB36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
