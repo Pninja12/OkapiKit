@@ -1279,3 +1279,230 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005499 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\a22206205\Documents\GitHub\OkapiKit\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\a22206205\Documents\GitHub\OkapiKit\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.147 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1148ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (943ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (269ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (443ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5299 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (0.7 MB). Loaded Objects now: 6001.
+Memory consumption went from 214.0 MB to 213.3 MB.
+Total: 3.687400 ms (FindLiveObjects: 0.456000 ms CreateObjectMapping: 0.385700 ms MarkObjects: 2.547800 ms  DeleteObjects: 0.297200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (0.7 MB). Loaded Objects now: 6001.
+Memory consumption went from 106.4 MB to 105.7 MB.
+Total: 3.279600 ms (FindLiveObjects: 0.391000 ms CreateObjectMapping: 0.282500 ms MarkObjects: 2.323700 ms  DeleteObjects: 0.281900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4082.028071 seconds.
+  path: Assets/OkapiKit/Samples/Assets/Audio/explosion.wav
+  artifactKey: Guid(3d1ed18b96b40c14ba50d9b74a73fd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OkapiKit/Samples/Assets/Audio/explosion.wav using Guid(3d1ed18b96b40c14ba50d9b74a73fd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd37801df72847a335468e7fd85d4cbe2') in 0.093824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tank Game/files/kenney_topdowntanksredux/PNG/Default size/explosion5.png
+  artifactKey: Guid(cdc34af06abda9942880efc7d7669ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank Game/files/kenney_topdowntanksredux/PNG/Default size/explosion5.png using Guid(cdc34af06abda9942880efc7d7669ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe67db1b737a8ea80b3e10633490a54') in 0.042895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TANKWambo/Assets/VFX/explosionSmoke4.png
+  artifactKey: Guid(151870b1c39c108409f29222514f9b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TANKWambo/Assets/VFX/explosionSmoke4.png using Guid(151870b1c39c108409f29222514f9b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59532a2d742a24aa253c8a6ba93f64ee') in 0.017130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/prefab/explosion.prefab
+  artifactKey: Guid(260afa6cdbd91e144990d667176aa59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/explosion.prefab using Guid(260afa6cdbd91e144990d667176aa59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (explosion) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (explosion) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '4fc7686f06e642afd1268b6fdb8557ff') in 0.144375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TANKWambo/Assets/VFX/explosion2.png
+  artifactKey: Guid(1c00bf5f5e2f85345992ff5f75c892f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TANKWambo/Assets/VFX/explosion2.png using Guid(1c00bf5f5e2f85345992ff5f75c892f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70ff9670fcf19e637cd50601b476324') in 0.019621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TANKWambo/Assets/VFX/explosion3.png
+  artifactKey: Guid(ff6b992ab1044204b8a951429e1dee83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TANKWambo/Assets/VFX/explosion3.png using Guid(ff6b992ab1044204b8a951429e1dee83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51872b9214a983c466fa4f3c767ec657') in 0.019377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TANKWambo/Assets/VFX/explosionSmoke3.png
+  artifactKey: Guid(39a0568ec4e6ffb45ae3c2bcd9308015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TANKWambo/Assets/VFX/explosionSmoke3.png using Guid(39a0568ec4e6ffb45ae3c2bcd9308015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd917b167c92a62fc59b165d2cb5c87a3') in 0.018232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tank Game/files/kenney_topdowntanksredux/PNG/Retina/explosion1.png
+  artifactKey: Guid(6e95df5202a884f48b271f284b6a1552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank Game/files/kenney_topdowntanksredux/PNG/Retina/explosion1.png using Guid(6e95df5202a884f48b271f284b6a1552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde70fa69c63011bdca1023b01231c5a') in 0.017409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tank Game/files/kenney_topdowntanksredux/PNG/Retina/explosion3.png
+  artifactKey: Guid(0112006f2daf2b34ca7e4fb1708e9151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank Game/files/kenney_topdowntanksredux/PNG/Retina/explosion3.png using Guid(0112006f2daf2b34ca7e4fb1708e9151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5c404c4a85edab7d937ce9ae4a746f') in 0.017004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tank Game/files/kenney_topdowntanksredux/PNG/Retina/explosion5.png
+  artifactKey: Guid(a995996789d82e446a639ff28a39e074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank Game/files/kenney_topdowntanksredux/PNG/Retina/explosion5.png using Guid(a995996789d82e446a639ff28a39e074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf788fa50795da6bb656e4f5d1f5f73') in 0.017582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/OkapiKit/Samples/Assets/Images/explosion.png
+  artifactKey: Guid(704424ef23ddb22418794b8d722d59d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OkapiKit/Samples/Assets/Images/explosion.png using Guid(704424ef23ddb22418794b8d722d59d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5c6cc8fee37bdcf6ee40ad1e70c146') in 0.063610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TANKWambo/Assets/VFX/explosionSmoke1.png
+  artifactKey: Guid(7bffa8b66bdbbf040a73d1922188c9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TANKWambo/Assets/VFX/explosionSmoke1.png using Guid(7bffa8b66bdbbf040a73d1922188c9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3e7b5d3c302d65ef8bc159837f786c') in 0.019239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Tank Game/files/kenney_topdowntanksredux/PNG/Default size/explosion2.png
+  artifactKey: Guid(824c6c0f4306ce94b9238f0874166c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank Game/files/kenney_topdowntanksredux/PNG/Default size/explosion2.png using Guid(824c6c0f4306ce94b9238f0874166c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd43bec3b8181f4ccd0b1f3df76c1ef3f') in 0.015107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tank Game/files/kenney_topdowntanksredux/PNG/Retina/explosionSmoke5.png
+  artifactKey: Guid(74640cf4b1c15ce44b1727238c242487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank Game/files/kenney_topdowntanksredux/PNG/Retina/explosionSmoke5.png using Guid(74640cf4b1c15ce44b1727238c242487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d66fc8f2de79cfc433596170fcb2508') in 0.017226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tank Game/files/kenney_topdowntanksredux/PNG/Default size/explosionSmoke2.png
+  artifactKey: Guid(7f2586c8bb05351498d79c0e934f808a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank Game/files/kenney_topdowntanksredux/PNG/Default size/explosionSmoke2.png using Guid(7f2586c8bb05351498d79c0e934f808a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f329b3194d3b49b78f608f067ad1ec26') in 0.015448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tank Game/files/kenney_topdowntanksredux/PNG/Default size/explosion1.png
+  artifactKey: Guid(d49af03f9b9f9274fa5f7f36c9a3189c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank Game/files/kenney_topdowntanksredux/PNG/Default size/explosion1.png using Guid(d49af03f9b9f9274fa5f7f36c9a3189c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7374568d2d5366b21cb5b725e253b2') in 0.014924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tank Game/files/kenney_topdowntanksredux/PNG/Default size/explosionSmoke3.png
+  artifactKey: Guid(3fdfb04c7613bfb428a820802fd98b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank Game/files/kenney_topdowntanksredux/PNG/Default size/explosionSmoke3.png using Guid(3fdfb04c7613bfb428a820802fd98b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722ca1cf7a0b64ed17e50dc1b26e6cb3') in 0.014931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TANKWambo/Assets/VFX/explosion4.png
+  artifactKey: Guid(282d8940da5cf6040ae97ebb402ea385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TANKWambo/Assets/VFX/explosion4.png using Guid(282d8940da5cf6040ae97ebb402ea385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82f7ca41f5d9bca74444c565dd62db5') in 0.015966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tank Game/files/kenney_topdowntanksredux/PNG/Retina/explosionSmoke1.png
+  artifactKey: Guid(bfa213fc6d9e2744dad4f6c63b6949e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank Game/files/kenney_topdowntanksredux/PNG/Retina/explosionSmoke1.png using Guid(bfa213fc6d9e2744dad4f6c63b6949e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b73fbac69494ae047b1e0be1f8bf01a') in 0.015775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tank Game/files/kenney_topdowntanksredux/PNG/Retina/explosionSmoke2.png
+  artifactKey: Guid(fc8d474db668b6d4b840ca98cb4b1635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tank Game/files/kenney_topdowntanksredux/PNG/Retina/explosionSmoke2.png using Guid(fc8d474db668b6d4b840ca98cb4b1635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84dd74470ed0ac1932894e0d326b3f53') in 0.013683 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
